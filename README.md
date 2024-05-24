@@ -12,7 +12,7 @@ cd MSBD5014B_DP
 
 ## Generate Data from TPCH benchmark
 
-To generate data from the TPCH benchmark, follow these steps:
+To generate data from the [TPCH benchmark](https://www.tpc.org/tpc_documents_current_versions/current_specifications5.asp), follow these steps:
 
 1. Change directory to TPCH/dbgen: `cd TPCH/dbgen`
 2. Generate data with a scale of 0.125 and convert it to CSV format using the command: 
@@ -37,7 +37,7 @@ To set up the database and import the generated data, follow these steps:
 To run queries on R2T, there are two scripts available:
 
 1. **r2t_count.py**: This script can run queries 3, 5, and 12, which fall under the "Single primary private relation" and "Multiple primary private relations" types of queries.
-2. **r2t_aggregation.py**: This script can run queries 11 and 18, which also fall under the "Single primary private relation" and "Multiple primary private relations" types of queries.
+2. **r2t_aggregation.py**: This script can run queries 11 and 18, which fall under the "Aggregation" types of queries.
 
 ## Testing Instructions
 
