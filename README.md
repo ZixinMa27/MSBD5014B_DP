@@ -1,4 +1,4 @@
-# MSBD5014B Answering SQL Queries Under Differential Privacy Report
+# MSBD5014B Answering SQL Queries Under Differential Privacy
 
 ## Introduction
 This project focuses on implementing algorithms for achieving differential privacy (DP) in the context of the TPC-H benchmark queries. The goal is to apply the concepts and techniques presented in the research paper: ["R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys"](https://cse.hkust.edu.hk/~yike/R2T.pdf).
