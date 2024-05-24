@@ -1,0 +1,11 @@
+q12_original = '''select count(*) 
+                from orders, lineitem 
+                where o_orderkey = l_orderkey;
+                '''
+Rewrite to 
+
+q12 = '''select o_orderkey 
+        from orders, lineitem  
+        where o_orderkey = l_orderkey
+        '''
+                    

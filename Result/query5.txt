@@ -1,0 +1,111 @@
+2024-05-24 17:21:20,989 - Running query name: query5
+2024-05-24 17:21:20,990 - Running query: select C_CUSTKEY, S_SUPPKEY 
+                  from customer, orders, lineitem, supplier, nation, region 
+                  where c_custkey = o_custkey 
+                  and l_orderkey = o_orderkey 
+                  and l_suppkey = s_suppkey 
+                  and c_nationkey = s_nationkey
+                  and s_nationkey = n_nationkey 
+                  and n_regionkey = r_regionkey
+2024-05-24 17:21:22,290 - Real query result: 29756. After R2T query result: 29520.08555738011. Relative error: 0.7928%.
+2024-05-24 17:21:23,372 - Real query result: 29756. After R2T query result: 29573.74317023683. Relative error: 0.6125%.
+2024-05-24 17:21:24,416 - Real query result: 29756. After R2T query result: 34613.12277812866. Relative error: 16.3232%.
+2024-05-24 17:21:25,435 - Real query result: 29756. After R2T query result: 29551.34626054163. Relative error: 0.6878%.
+2024-05-24 17:21:26,451 - Real query result: 29756. After R2T query result: 29542.52273985927. Relative error: 0.7174%.
+2024-05-24 17:21:27,550 - Real query result: 29756. After R2T query result: 29573.771355898913. Relative error: 0.6124%.
+2024-05-24 17:21:28,756 - Real query result: 29756. After R2T query result: 29509.22165043973. Relative error: 0.8293%.
+2024-05-24 17:21:29,880 - Real query result: 29756. After R2T query result: 29635.259760526445. Relative error: 0.4058%.
+2024-05-24 17:21:31,005 - Real query result: 29756. After R2T query result: 29503.885936420287. Relative error: 0.8473%.
+2024-05-24 17:21:32,148 - Real query result: 29756. After R2T query result: 29687.805934845335. Relative error: 0.2292%.
+2024-05-24 17:21:33,295 - Real query result: 29756. After R2T query result: 29498.52107125558. Relative error: 0.8653%.
+2024-05-24 17:21:34,371 - Real query result: 29756. After R2T query result: 29599.942085275954. Relative error: 0.5245%.
+2024-05-24 17:21:35,498 - Real query result: 29756. After R2T query result: 29530.778632524063. Relative error: 0.7569%.
+2024-05-24 17:21:36,598 - Real query result: 29756. After R2T query result: 29555.300797512817. Relative error: 0.6745%.
+2024-05-24 17:21:37,697 - Real query result: 29756. After R2T query result: 33667.70600773962. Relative error: 13.1459%.
+2024-05-24 17:21:38,813 - Real query result: 29756. After R2T query result: 29609.093562055274. Relative error: 0.4937%.
+2024-05-24 17:21:39,925 - Real query result: 29756. After R2T query result: 29421.544874982974. Relative error: 1.1240%.
+2024-05-24 17:21:41,041 - Real query result: 29756. After R2T query result: 29573.292631369222. Relative error: 0.6140%.
+2024-05-24 17:21:42,173 - Real query result: 29756. After R2T query result: 29480.74286715913. Relative error: 0.9250%.
+2024-05-24 17:21:43,307 - Real query result: 29756. After R2T query result: 29516.757037446267. Relative error: 0.8040%.
+2024-05-24 17:21:44,445 - Real query result: 29756. After R2T query result: 29506.50411576362. Relative error: 0.8385%.
+2024-05-24 17:21:45,572 - Real query result: 29756. After R2T query result: 54747.205097083905. Relative error: 83.9871%.
+2024-05-24 17:21:46,684 - Real query result: 29756. After R2T query result: 29481.388200562018. Relative error: 0.9229%.
+2024-05-24 17:21:47,793 - Real query result: 29756. After R2T query result: 29511.545024839736. Relative error: 0.8215%.
+2024-05-24 17:21:48,882 - Real query result: 29756. After R2T query result: 29532.738976019198. Relative error: 0.7503%.
+2024-05-24 17:21:49,994 - Real query result: 29756. After R2T query result: 29474.706313055583. Relative error: 0.9453%.
+2024-05-24 17:21:51,094 - Real query result: 29756. After R2T query result: 29497.55792681949. Relative error: 0.8685%.
+2024-05-24 17:21:52,234 - Real query result: 29756. After R2T query result: 29505.272365080647. Relative error: 0.8426%.
+2024-05-24 17:21:53,317 - Real query result: 29756. After R2T query result: 29556.58240163347. Relative error: 0.6702%.
+2024-05-24 17:21:54,402 - Real query result: 29756. After R2T query result: 29563.621816795334. Relative error: 0.6465%.
+2024-05-24 17:21:55,487 - Real query result: 29756. After R2T query result: 29515.078657968937. Relative error: 0.8097%.
+2024-05-24 17:21:56,598 - Real query result: 29756. After R2T query result: 29467.828898222182. Relative error: 0.9684%.
+2024-05-24 17:21:57,722 - Real query result: 29756. After R2T query result: 29517.73192614784. Relative error: 0.8007%.
+2024-05-24 17:21:58,847 - Real query result: 29756. After R2T query result: 29503.894804597458. Relative error: 0.8472%.
+2024-05-24 17:21:59,949 - Real query result: 29756. After R2T query result: 29580.737570161287. Relative error: 0.5890%.
+2024-05-24 17:22:01,063 - Real query result: 29756. After R2T query result: 29491.747866121015. Relative error: 0.8881%.
+2024-05-24 17:22:02,171 - Real query result: 29756. After R2T query result: 29544.175131819644. Relative error: 0.7119%.
+2024-05-24 17:22:03,261 - Real query result: 29756. After R2T query result: 29549.7403818008. Relative error: 0.6932%.
+2024-05-24 17:22:04,382 - Real query result: 29756. After R2T query result: 29577.49165075471. Relative error: 0.5999%.
+2024-05-24 17:22:05,539 - Real query result: 29756. After R2T query result: 29543.046328491437. Relative error: 0.7157%.
+2024-05-24 17:22:06,760 - Real query result: 29756. After R2T query result: 29443.850170971888. Relative error: 1.0490%.
+2024-05-24 17:22:07,935 - Real query result: 29756. After R2T query result: 29571.57071696201. Relative error: 0.6198%.
+2024-05-24 17:22:09,104 - Real query result: 29756. After R2T query result: 29516.91847192829. Relative error: 0.8035%.
+2024-05-24 17:22:10,397 - Real query result: 29756. After R2T query result: 29509.204064055833. Relative error: 0.8294%.
+2024-05-24 17:22:11,593 - Real query result: 29756. After R2T query result: 29517.62261888165. Relative error: 0.8011%.
+2024-05-24 17:22:12,734 - Real query result: 29756. After R2T query result: 29488.060363746474. Relative error: 0.9005%.
+2024-05-24 17:22:13,850 - Real query result: 29756. After R2T query result: 29540.65811013191. Relative error: 0.7237%.
+2024-05-24 17:22:15,020 - Real query result: 29756. After R2T query result: 29549.35834570448. Relative error: 0.6945%.
+2024-05-24 17:22:16,196 - Real query result: 29756. After R2T query result: 29452.27641163112. Relative error: 1.0207%.
+2024-05-24 17:22:17,400 - Real query result: 29756. After R2T query result: 29547.886436037355. Relative error: 0.6994%.
+2024-05-24 17:22:18,557 - Real query result: 29756. After R2T query result: 29621.9680760018. Relative error: 0.4504%.
+2024-05-24 17:22:19,765 - Real query result: 29756. After R2T query result: 38217.19766930716. Relative error: 28.4353%.
+2024-05-24 17:22:20,989 - Real query result: 29756. After R2T query result: 29568.271281452606. Relative error: 0.6309%.
+2024-05-24 17:22:22,134 - Real query result: 29756. After R2T query result: 29513.784732336084. Relative error: 0.8140%.
+2024-05-24 17:22:23,317 - Real query result: 29756. After R2T query result: 29538.94271766188. Relative error: 0.7295%.
+2024-05-24 17:22:24,515 - Real query result: 29756. After R2T query result: 29610.21736938637. Relative error: 0.4899%.
+2024-05-24 17:22:25,659 - Real query result: 29756. After R2T query result: 29521.968720086916. Relative error: 0.7865%.
+2024-05-24 17:22:26,798 - Real query result: 29756. After R2T query result: 29528.4592891692. Relative error: 0.7647%.
+2024-05-24 17:22:27,973 - Real query result: 29756. After R2T query result: 29495.818601183793. Relative error: 0.8744%.
+2024-05-24 17:22:29,195 - Real query result: 29756. After R2T query result: 29598.95098884729. Relative error: 0.5278%.
+2024-05-24 17:22:30,382 - Real query result: 29756. After R2T query result: 29613.034877069775. Relative error: 0.4805%.
+2024-05-24 17:22:31,572 - Real query result: 29756. After R2T query result: 29564.450459063675. Relative error: 0.6437%.
+2024-05-24 17:22:32,742 - Real query result: 29756. After R2T query result: 29542.329870488018. Relative error: 0.7181%.
+2024-05-24 17:22:33,912 - Real query result: 29756. After R2T query result: 29547.011704554334. Relative error: 0.7023%.
+2024-05-24 17:22:35,040 - Real query result: 29756. After R2T query result: 29536.329749404453. Relative error: 0.7382%.
+2024-05-24 17:22:36,221 - Real query result: 29756. After R2T query result: 29575.027867866083. Relative error: 0.6082%.
+2024-05-24 17:22:37,409 - Real query result: 29756. After R2T query result: 29533.311557614183. Relative error: 0.7484%.
+2024-05-24 17:22:38,573 - Real query result: 29756. After R2T query result: 29567.81802430819. Relative error: 0.6324%.
+2024-05-24 17:22:39,769 - Real query result: 29756. After R2T query result: 29545.871654511753. Relative error: 0.7062%.
+2024-05-24 17:22:40,983 - Real query result: 29756. After R2T query result: 29486.547144963504. Relative error: 0.9055%.
+2024-05-24 17:22:42,163 - Real query result: 29756. After R2T query result: 29503.07375488354. Relative error: 0.8500%.
+2024-05-24 17:22:43,337 - Real query result: 29756. After R2T query result: 29497.158733101267. Relative error: 0.8699%.
+2024-05-24 17:22:44,467 - Real query result: 29756. After R2T query result: 29529.062069322044. Relative error: 0.7627%.
+2024-05-24 17:22:45,611 - Real query result: 29756. After R2T query result: 29581.897040800588. Relative error: 0.5851%.
+2024-05-24 17:22:46,754 - Real query result: 29756. After R2T query result: 29477.759483912236. Relative error: 0.9351%.
+2024-05-24 17:22:47,885 - Real query result: 29756. After R2T query result: 29521.974801813885. Relative error: 0.7865%.
+2024-05-24 17:22:49,076 - Real query result: 29756. After R2T query result: 29564.05538179994. Relative error: 0.6451%.
+2024-05-24 17:22:50,258 - Real query result: 29756. After R2T query result: 29539.87965290328. Relative error: 0.7263%.
+2024-05-24 17:22:51,399 - Real query result: 29756. After R2T query result: 29544.3586756976. Relative error: 0.7113%.
+2024-05-24 17:22:52,534 - Real query result: 29756. After R2T query result: 29453.01553691722. Relative error: 1.0182%.
+2024-05-24 17:22:53,672 - Real query result: 29756. After R2T query result: 29558.24274567204. Relative error: 0.6646%.
+2024-05-24 17:22:54,829 - Real query result: 29756. After R2T query result: 29412.11799167122. Relative error: 1.1557%.
+2024-05-24 17:22:55,978 - Real query result: 29756. After R2T query result: 29561.03774272108. Relative error: 0.6552%.
+2024-05-24 17:22:57,122 - Real query result: 29756. After R2T query result: 29591.258491265446. Relative error: 0.5536%.
+2024-05-24 17:22:58,347 - Real query result: 29756. After R2T query result: 29560.64270759098. Relative error: 0.6565%.
+2024-05-24 17:22:59,540 - Real query result: 29756. After R2T query result: 29527.12104204179. Relative error: 0.7692%.
+2024-05-24 17:23:00,764 - Real query result: 29756. After R2T query result: 29524.789620148797. Relative error: 0.7770%.
+2024-05-24 17:23:01,927 - Real query result: 29756. After R2T query result: 29476.99472146381. Relative error: 0.9376%.
+2024-05-24 17:23:03,058 - Real query result: 29756. After R2T query result: 29551.006503477216. Relative error: 0.6889%.
+2024-05-24 17:23:04,250 - Real query result: 29756. After R2T query result: 29530.46982222681. Relative error: 0.7579%.
+2024-05-24 17:23:05,433 - Real query result: 29756. After R2T query result: 29520.740147935718. Relative error: 0.7906%.
+2024-05-24 17:23:06,629 - Real query result: 29756. After R2T query result: 29530.252430550154. Relative error: 0.7587%.
+2024-05-24 17:23:07,822 - Real query result: 29756. After R2T query result: 29604.30267290262. Relative error: 0.5098%.
+2024-05-24 17:23:08,982 - Real query result: 29756. After R2T query result: 29441.565211652236. Relative error: 1.0567%.
+2024-05-24 17:23:10,131 - Real query result: 29756. After R2T query result: 29541.062301425052. Relative error: 0.7223%.
+2024-05-24 17:23:11,302 - Real query result: 29756. After R2T query result: 29568.447864691712. Relative error: 0.6303%.
+2024-05-24 17:23:12,493 - Real query result: 29756. After R2T query result: 29542.290960943847. Relative error: 0.7182%.
+2024-05-24 17:23:13,675 - Real query result: 29756. After R2T query result: 29733.65966222887. Relative error: 0.0751%.
+2024-05-24 17:23:14,873 - Real query result: 29756. After R2T query result: 29553.746953435206. Relative error: 0.6797%.
+2024-05-24 17:23:16,055 - Real query result: 29756. After R2T query result: 29475.882903635753. Relative error: 0.9414%.
+2024-05-24 17:23:16,056 - Average running time: 1.1504 seconds
+2024-05-24 17:23:16,056 - Average relative error is: 0.7504%
